@@ -231,6 +231,10 @@ p {
     letter-spacing: .58px
 }
 
+.widgets__footer a:hover {
+    color: rgb(231, 231, 231);
+}
+
 .widgets__footer i {
     margin-left: 12px
 }
@@ -358,6 +362,11 @@ p {
     letter-spacing: .65px;
     line-height: 1.71;
     text-decoration: none
+}
+
+.carbg__link:hover {
+    color: rgb(189, 189, 189);
+    transition: 500ms;
 }
 
 .carbg__link i {
@@ -522,6 +531,12 @@ p {
     cursor: pointer;
 }
 
+.fa-apple:hover, .fa-windows:hover {
+    color: #818181;
+    transition: 800ms;
+}
+
+
 .footer {
     background-color: #192431;
     color: #f6f7fa;
@@ -597,10 +612,19 @@ p {
     width: 15%;
     height: 58px;
     color: #fff;
-    background: #82ca9c url(/img/ok.png) no-repeat;
+    background: #82ca9c;
+    background-image: url(../img/ok.png);
     background-position: center;
+    background-repeat: no-repeat;
     border: none;
     cursor: pointer;
+}
+
+.subscribe__btn:hover {
+    background: #5bbb7e;
+    background-image: url(../img/ok.png);
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .subscribe__info {
@@ -660,6 +684,11 @@ p {
     text-decoration: none;
     line-height: 1.85;
     letter-spacing: .26px
+}
+
+.nav__link:hover {
+    color: #9f9f9f;
+    transition: 300ms;
 }
 
 @media (max-width:1280px) {
